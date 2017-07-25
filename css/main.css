@@ -5826,7 +5826,7 @@ header {
 
 .perfil-user {
   background-color: #203748;
-  height: 100vh;
+  height: 89vh;
   color: #EFEFEF; }
   .perfil-user__info {
     margin: 0 auto;
@@ -5859,6 +5859,20 @@ header {
         color: #EFEFEF; }
         .perfil-user__info__hire__btn i {
           padding-right: 10px; }
+      .perfil-user__info__hire__btn:hover {
+        background-color: #EFEFEF;
+        color: #39d084; }
+  .perfil-user__redes {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px; }
+    .perfil-user__redes__item {
+      list-style: none;
+      display: inline-block;
+      margin: 10px; }
+    .perfil-user__redes__item:hover {
+      border: 2px solid #EFEFEF;
+      border-radius: 100%; }
 
 body {
   padding: 0;

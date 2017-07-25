@@ -36,7 +36,7 @@ header{
 
 .perfil-user{
 	background-color: $color-perfil;
-	height: 100vh;
+	height: 89vh;
 	color: $color-texto-blanco;
 	&__info{
 		margin: 0 auto;
@@ -75,6 +75,24 @@ header{
 					padding-right: 10px;
 				}
 			}
+			&__btn:hover{
+				background-color: $color-texto-blanco;
+				color: $color-secundario;
+			}
+		}
+	}
+	&__redes{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+		&__item{
+			list-style: none;
+			display: inline-block;
+			margin: 10px;
+		}
+		&__item:hover{
+			border: 2px solid $color-texto-blanco;
+			border-radius: 100%;
 		}
 	}
 
