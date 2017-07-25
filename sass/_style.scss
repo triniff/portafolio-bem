@@ -1,0 +1,34 @@
+header{
+	background-color: $fondo-menu;
+}
+.menu{
+	text-align: center;
+	margin: 0 auto;
+	&__item{
+		display: inline-block;
+		list-style: none;
+		i{
+			padding-right: 10px;
+		}
+		&__a--profile-img{
+			width: 90px;
+		}
+		&__a{
+			color: $color-texto-blanco;
+			padding: 10px 20px;
+			margin: 0 30px;
+		}
+		&__a:hover{
+			text-decoration: none;
+			color: $color-perfil;
+		}
+		&__a--profile{
+			background-color: $color-perfil;
+			border-radius: 20px;
+			&:hover{
+				background-color: $color-texto-blanco;
+			}
+		}
+	}
+
+}
