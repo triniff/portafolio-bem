@@ -5800,29 +5800,65 @@ button.close {
     display: none !important; } }
 header {
   background-color: #F04949; }
+  header .menu {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%; }
+    header .menu__item {
+      display: inline-block;
+      list-style: none; }
+      header .menu__item i {
+        padding-right: 10px; }
+      header .menu__item__a--profile-img {
+        width: 90px; }
+      header .menu__item__a {
+        color: #EFEFEF;
+        padding: 10px 20px;
+        margin: 0 30px; }
+      header .menu__item__a:hover {
+        text-decoration: none;
+        color: #203748; }
+      header .menu__item__a--profile {
+        background-color: #203748;
+        border-radius: 20px; }
+        header .menu__item__a--profile:hover {
+          background-color: #EFEFEF; }
 
-.menu {
-  text-align: center;
-  margin: 0 auto; }
-  .menu__item {
-    display: inline-block;
-    list-style: none; }
-    .menu__item i {
-      padding-right: 10px; }
-    .menu__item__a--profile-img {
-      width: 90px; }
-    .menu__item__a {
-      color: #fff;
-      padding: 10px 20px;
-      margin: 0 30px; }
-    .menu__item__a:hover {
-      text-decoration: none;
+.perfil-user {
+  background-color: #203748;
+  height: 100vh;
+  color: #EFEFEF; }
+  .perfil-user__info {
+    margin: 0 auto;
+    width: 70%;
+    padding: 40px 20px; }
+    .perfil-user__info__imagen {
+      background-color: #EFEFEF;
+      height: 250px;
+      width: 250px;
+      border-radius: 100%;
+      text-align: center;
+      padding: 100px 0;
+      font-size: 35px;
+      font-weight: bold;
       color: #203748; }
-    .menu__item__a--profile {
-      background-color: #203748;
-      border-radius: 20px; }
-      .menu__item__a--profile:hover {
-        background-color: #fff; }
+    .perfil-user__info__nombre {
+      margin-bottom: 0;
+      color: #39d084; }
+    .perfil-user__info__prof {
+      margin: 10px 0;
+      font-size: 20px; }
+    .perfil-user__info__text {
+      padding: 10px 0; }
+    .perfil-user__info__hire {
+      margin: 50px 0; }
+      .perfil-user__info__hire__btn {
+        padding: 20px 45px;
+        border-radius: 45px;
+        background-color: #39d084;
+        color: #EFEFEF; }
+        .perfil-user__info__hire__btn i {
+          padding-right: 10px; }
 
 body {
   padding: 0;

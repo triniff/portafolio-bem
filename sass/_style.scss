@@ -1,32 +1,79 @@
 header{
 	background-color: $fondo-menu;
+	.menu{
+		text-align: center;
+		margin: 0 auto;
+		width: 70%;
+		&__item{
+			display: inline-block;
+			list-style: none;
+			i{
+				padding-right: 10px;
+			}
+			&__a--profile-img{
+				width: 90px;
+			}
+			&__a{
+				color: $color-texto-blanco;
+				padding: 10px 20px;
+				margin: 0 30px;
+			}
+			&__a:hover{
+				text-decoration: none;
+				color: $color-perfil;
+			}
+			&__a--profile{
+				background-color: $color-perfil;
+				border-radius: 20px;
+				&:hover{
+					background-color: $color-texto-blanco;
+				}
+			}
+		}
+	}
 }
-.menu{
-	text-align: center;
-	margin: 0 auto;
-	&__item{
-		display: inline-block;
-		list-style: none;
-		i{
-			padding-right: 10px;
-		}
-		&__a--profile-img{
-			width: 90px;
-		}
-		&__a{
-			color: $color-texto-blanco;
-			padding: 10px 20px;
-			margin: 0 30px;
-		}
-		&__a:hover{
-			text-decoration: none;
+
+
+.perfil-user{
+	background-color: $color-perfil;
+	height: 100vh;
+	color: $color-texto-blanco;
+	&__info{
+		margin: 0 auto;
+		width: 70%;
+		padding: 40px 20px;
+		&__imagen{
+			background-color: $color-texto-blanco;
+			height: 250px;
+			width: 250px;
+			border-radius: 100%;
+			text-align: center;
+			padding: 100px 0;
+			font-size: 35px;
+			font-weight: bold;
 			color: $color-perfil;
 		}
-		&__a--profile{
-			background-color: $color-perfil;
-			border-radius: 20px;
-			&:hover{
-				background-color: $color-texto-blanco;
+		&__nombre{
+			margin-bottom: 0;
+			color: $color-secundario;
+		}
+		&__prof{
+			margin: 10px 0;
+			font-size: 20px;
+		}
+		&__text{
+			padding: 10px 0;
+		}
+		&__hire{
+			margin: 50px 0;
+			&__btn{
+				padding: 20px 45px;
+				border-radius: 45px;
+				background-color: $color-secundario;
+				color: $color-texto-blanco;
+				i{
+					padding-right: 10px;
+				}
 			}
 		}
 	}
